@@ -1,0 +1,9 @@
+
+# Ignore model checkpoints
+checkpoints/
+# Ignore commonly generated data/results that might be large
+*.h5
+*.npz
+# You might want to ignore other large outputs or temporary files too
+__pycache__/
+*.log
